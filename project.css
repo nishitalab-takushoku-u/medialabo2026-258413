@@ -1,0 +1,39 @@
+html {
+  background-color: white;
+}
+ 
+body {
+  font: 1.2em / 1.5 system-ui;
+  padding: 20px;
+  width: 500px;
+  background-color: #efefef;
+  margin: 0 auto;
+}
+h1 {
+  text-shadow:
+    1px 1px 1px rgb(100, 149, 233),
+    2px 2px 1px white;
+}
+ 
+h2 {
+    color: rgb(42, 42, 64);
+  font-style: italic;
+  font-size: 1.5rem;
+  border-bottom: 3px dotted orange;
+  width: 35%;
+}
+h3{
+    color: rgb(21, 103, 6);
+  margin: 5px;
+  color: #1af1d8;
+  background: linear-gradient(to right,rgb(12, 12, 9),#f8f8f6);
+}
+ul {
+  background-color: white;
+  border: 5px solid rgb(198, 136, 64);
+  padding: 30px;
+  border-radius: 20px;
+}
+li{
+    color: rgb(46, 146, 171);
+}
