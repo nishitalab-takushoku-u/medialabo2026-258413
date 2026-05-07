@@ -13,12 +13,11 @@ h1 {
  
 
 h2 {
-    color: red;
+    color: rgb(44, 184, 240);
     margin: 5px;
     font-family: cursive;
     color: #54abea;
     background: linear-gradient(to right,rgb(8, 26, 25),#ecebe6);
-}
-p.special{
-    color: red;
+    
+    color: rgb(50, 223, 215);
 }
