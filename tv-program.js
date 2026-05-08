@@ -1,7 +1,15 @@
 
 // 課題3-2 のプログラムはこの関数の中に記述すること
 function print(data) {
-
+console.log('NHKの番組表（検索結果は2件）');
+  for(let r of data.list.g1){
+    console.log('開始時刻：'+ r.start_time);
+    console.log('終了時刻；'+ r.end_time);
+    console.log('タイトル：'+ r.title);
+    console.log('サブタイトル：'+ r.subtitle);
+    console.log('番組説明：' + r.content);
+    console.log('出演者：'+ r.act);
+  }
 }
 
 // 課題5-1 の関数 printDom() はここに記述すること
